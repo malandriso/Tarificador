@@ -1,0 +1,11 @@
+/*.octavio .active a{
+	background-color: #00a65a !important;
+	border: 1px solid #00a65a;
+}*/
+.pagination > .active > a{
+	background-color: #008d4c !important;
+    border-color: #00a65a !important;
+}
+.pagination > li > a:hover{
+	    color: #00a65a !important;
+}
