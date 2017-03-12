@@ -25,12 +25,12 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach($data as $row)
+                                @foreach($users as $user)
                                 <tr>
-                                    <td>{{$row->name}}</td>
-                                    <td>{{$row->email}}</td>
-                                    <td>Total</td>
-                                    <td>{{$row->created_at}}</td>
+                                    <td>{{$user->name}}</td>
+                                    <td>{{$user->email}}</td>
+                                    <td>{{$user->priviledge_name}}</td>
+                                    <td>{{$user->created_at}}</td>
                                     <td> <button class="btn btn-success btn-xs mostrarModal" style='cursor: pointer'>
                                     <span class="glyphicon glyphicon-pencil"></span></button> </td>
                                     </td>
